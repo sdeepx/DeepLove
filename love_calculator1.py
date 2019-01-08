@@ -35,6 +35,16 @@ def main():
         print("sorry! Something went wrong!")
         print(" ")
 
+    if parcentage > 100:
+        ran = random.randint(40,100)
+        print("You love", lname, ran, "%")
+        print(lname, "loves you", parcentage1, "%")
+        
+    if parcentage1 > 100:
+        ran = random.randint(40, 100)
+        print("You love", lname, parcentage, "%")
+        print(lname, "loves you", ran, "%")
+
     def again():
         again = input("Do you wnat to check your love percentage again? 'y' or 'n' ")
         print(" ")
@@ -44,7 +54,7 @@ def main():
             print("OK! thank you ")
 
         else:
-            print("Sorry something went wrong! you did not enter the right value..")
+            print("Sorry something went wrong! you did enter the right value..")
 
     again()
 
