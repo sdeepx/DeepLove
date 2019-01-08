@@ -44,7 +44,7 @@ def main():
             print("OK! thank you ")
 
         else:
-            print("Sorry something went wrong! you did enter the right value..")
+            print("Sorry something went wrong! you did not enter the right value..")
 
     again()
 
