@@ -6,7 +6,7 @@
         # clone the repo
          $ git clone https://github.com/shubha161/DeepLove
          
-        # change the working directory to DeepHash
+        # change the working directory to DeepLove
          $ cd DeepLove
 <h3> Usage </h3>
         
